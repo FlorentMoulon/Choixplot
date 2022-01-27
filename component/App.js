@@ -20,7 +20,7 @@ function App() {
                 </div>
                 <p className="cpStartTexte">
                     Notre RH, Choixplot, s&apos;occupe d&apos;assigner aux membres une des quatre maisons de Plodlard, en fonction de leur personnalité.
-                    Pour connaitre votre maison, il suffit de passé le cours test de Choixplot
+                    Pour connaitre votre maison, il suffit de passer le court test de Choixplot.
                 </p>
                 <div className="cpCenter"><button className="cpStart" onClick={(e) => updateId(0)}>
                     Commencer
@@ -40,8 +40,6 @@ function App() {
     }else{
         return (
             <div>
-                <Maison idQuestion={idQuestion} score={score}/>
-
                 <div className="cpBoxImg">
                     <Image placeholder="blur" src={Question[idQuestion].img} alt="Image contextuel à la question"/>
                 </div>

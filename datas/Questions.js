@@ -47,14 +47,14 @@ export const Question = [
 
     {
         id: 2,
-		enonce: 'Sur l\'autoroute vous choisisez :',
+		enonce: 'Sur l\'autoroute vous choisissez :',
         reponses: [
             {   
                 texte: 'A: La voie de droite : La voie la plus sûre, on peut rouler tranquillement',
                 tabScore: [0,1,0,0]
             },
             {   
-                texte: 'B: La voie du milieu : On peut rouler vite, on n\'est pas  freiner par la voie de droite',
+                texte: 'B: La voie du milieu : On peut rouler vite, on n\'est pas freinés par la voie de droite',
                 tabScore: [0,0,0,1]
             },
             {   
@@ -62,7 +62,7 @@ export const Question = [
                 tabScore: [1,0,0,0]
             },
             {   
-                texte: 'D :La bande d\'arrêt d\'urgence : On peut rouler vite, on est pas géner pas les bouchons',
+                texte: 'D :La bande d\'arrêt d\'urgence : On peut rouler vite, on n\'est pas génés par les bouchons',
                 tabScore: [0,0,1,0]
             }
         ],
@@ -95,7 +95,7 @@ export const Question = [
 
     {
         id: 4,
-		enonce: 'Quelle serai votre réaction si vous receviez un PV pour excès de vitesse ?',
+		enonce: 'Quelle serait votre réaction si vous receviez un PV pour excès de vitesse ?',
         reponses: [
             {   
                 texte: 'A: Comment ! Je respecte toujours les limitations.',
@@ -126,11 +126,11 @@ export const Question = [
                 tabScore: [0,1,0,0]
             },
             {   
-                texte: 'B: Aucun, je suis un conducteur or père',
+                texte: 'B: Confondre ma gauche et ma droite',
                 tabScore: [1,0,0,0]
             },
             {   
-                texte: 'C: Je conteste et menace l’agent si possible.',
+                texte: 'C: Aucun, je suis un conducteur hors pair',
                 tabScore: [0,0,0,1]
             },
             {   
@@ -150,15 +150,15 @@ export const Question = [
                 tabScore: [0,0,1,0]
             },
             {   
-                texte: 'B: Je les ignores, ils ne feraient que me distraire',
+                texte: 'B: Je les ignore, ils ne font que me distraire',
                 tabScore: [0,0,0,1]
             },
             {   
-                texte: 'C: Je les remercie quand il me double',
+                texte: 'C: Je les remercie quand ils me doublent',
                 tabScore: [0,1,0,0]
             },
             {   
-                texte: 'D: Je les respectes tous',
+                texte: 'D: Je les respecte tous',
                 tabScore: [1,0,0,0]
             }
         ],
@@ -167,7 +167,7 @@ export const Question = [
 
     {
         id: 7,
-		enonce: 'Quelqu’un a oublié sa ceinture, que faite-vous ?',
+		enonce: 'Quelqu’un a oublié sa ceinture, que faites-vous ?',
         reponses: [
             {   
                 texte: 'A: Je ne fais rien, m’en fous je ne l’ai pas non plus',
@@ -226,11 +226,11 @@ export const Question = [
                 tabScore: [0,0,1,0]
             },
             {   
-                texte: 'C: \"Les fardeaux les plus lourds à porter sont ce qu\'on ne voit pas.\"',
+                texte: 'C: \"Les fardeaux les plus lourds à porter sont ceux qu\'on ne voit pas.\"',
                 tabScore: [0,0,0,1]
             },
             {   
-                texte: 'D: \"Je beurre salé, c\'est la vie ! \"',
+                texte: 'D: \"Le beurre salé, c\'est la vie ! \"',
                 tabScore: [0,1,0,0]
             }
         ],
@@ -239,10 +239,10 @@ export const Question = [
 
     {
         id: 10,
-		enonce: 'Quelle voiture voudiez-vous ?',
+		enonce: 'Quelle voiture voudriez-vous ?',
         reponses: [
             {   
-                texte: 'A: Une élctrique, c\'est plus écologique',
+                texte: 'A: Une électrique, c\'est plus écologique',
                 tabScore: [0,1,0,0]
             },
             {   
@@ -266,7 +266,7 @@ export const Question = [
 		enonce: 'Vous préférez conduire sur :',
         reponses: [
             {   
-                texte: 'A: Les virages de montagnes',
+                texte: 'A: Les virages de montagne',
                 tabScore: [0,0,0,1]
             },
             {   
@@ -274,11 +274,11 @@ export const Question = [
                 tabScore: [1,0,0,0]
             },
             {   
-                texte: 'C: Les nationales de campagnes',
+                texte: 'C: Les nationales de campagne',
                 tabScore: [0,1,0,0]
             },
             {   
-                texte: 'D: Le périphérique',
+                texte: 'D: Le périphérique parisien',
                 tabScore: [0,0,1,0]
             }
         ],
@@ -287,7 +287,7 @@ export const Question = [
 
     {
         id: 12,
-		enonce: 'Qu’elle place préférez-vous ?',
+		enonce: 'Quelle place préférez-vous ?',
         reponses: [
             {   
                 texte: 'A: La place C, passager gauche',
@@ -295,11 +295,11 @@ export const Question = [
             },
             {   
                 texte: 'B: La place D, passager droit',
-                tabScore: [1,0,0,0]
+                tabScore: [0,1,0,0]
             },
             {   
                 texte: 'C: La place A, le conducteur',
-                tabScore: [0,1,0,0]
+                tabScore: [1,0,0,0]
             },
             {   
                 texte: 'D: La place B, passager avant',
@@ -311,7 +311,7 @@ export const Question = [
 
     {
         id: 13,
-		enonce: 'Comment avez-vous réagis au piège de la question précédente ?',
+		enonce: 'Comment avez-vous réagi au piège de la question précédente ?',
         reponses: [
             {   
                 texte: 'A: Quel piège ?',
@@ -331,53 +331,5 @@ export const Question = [
             }
         ],
         img: imgQ13
-	},
-
-    {
-        id: 14,
-		enonce: 'Vous préférez conduire sur :',
-        reponses: [
-            {   
-                texte: 'Les virages de montagnes',
-                tabScore: [0,0,1,0]
-            },
-            {   
-                texte: 'L’autoroute du soleil',
-                tabScore: [1,0,0,0]
-            },
-            {   
-                texte: 'Les nationales de campagnes',
-                tabScore: [0,1,0,0]
-            },
-            {   
-                texte: 'Le périphérique',
-                tabScore: [0,0,0,1]
-            }
-        ],
-        img: imgQ14
-	},
-
-    {
-        id: 15,
-		enonce: 'Vous préférez conduire sur :',
-        reponses: [
-            {   
-                texte: 'Les virages de montagnes',
-                tabScore: [0,0,1,0]
-            },
-            {   
-                texte: 'L’autoroute du soleil',
-                tabScore: [1,0,0,0]
-            },
-            {   
-                texte: 'Les nationales de campagnes',
-                tabScore: [0,1,0,0]
-            },
-            {   
-                texte: 'Le périphérique',
-                tabScore: [0,0,0,1]
-            }
-        ],
-        img: imgQ15
 	},
 ]
