@@ -1,34 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Choixplot
+Le choixplot est notre responsable RH, il s'occupe d'assigner les membres à leur maisons en fonction de leur personnalité.
+Pour connaitre votre maison, il suffit de passer un court test avec le choixplot : https://choixplot-tau.vercel.app/
 
-## Getting Started
 
-First, run the development server:
+# Maison
+## Clignodor : 
+"Le courage et toi ne font qu'un. Enfin, c'est ce que les gens autour de toi disent au premier abord. Tu évites beaucoup d'accidents et aide ainsi à la survie du plus grand nombre. Ta force est ton atout, mais fais attention à l'utiliser au bon moment, car allumer son cligno au dernier moment, c'est le meilleur moyen de mettre ses proches en danger !" 
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Pontsouffle : 
+"Tu es loyal et n'hésites pas à soutenir les gens vers le haut. Tu es toujours présent pour les aider à traverser des périodes difficiles. Sans toi, tes compagnons de route tomberaient au fond du gouffre." 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Serdirection : 
+"Tu connais ton code sur le bout des doigts. L'intelligence et toi, ça ne fait qu'un. D'aucuns disent que ton QI est plus élevé que celui d'Einstein. D'autres estiment que tu es un superhéros de la conduite. Tu ne t'es jamais fait flasher et tu sais que ça n'arrivera jamais. Avec toi, pas besoin de GPS ni de passager, tu connais tes cartes mieux que Michelin !" 
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Serpéage : 
+"Tu le sais, tu es très rusé. Telle le rat que tu es, tu ramasses l'argent de tes compagnons de routes en leur promettant loyauté et de meilleures autoroutes. Pourtant, tu ne peux t'empêcher de garder cette moula dans ta poche. Tu n'acceptes pas de rendre un service si tu n'obtiens rien en retour."
